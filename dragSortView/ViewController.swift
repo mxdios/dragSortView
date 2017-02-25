@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let dragsort = DragSort(frame: CGRect(x: 20, y: 20, width: self.view.frame.size.width - 40, height: self.view.frame.size.height - 40))
-        dragsort.backgroundColor = UIColor.orange
+        dragsort.backgroundColor = UIColor.yellow
         self.view.addSubview(dragsort)
     }
 
